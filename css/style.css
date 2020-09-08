@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Nunito sans", sans-serif;
+    content: '';
+    background: linear-gradient(50deg, rgb(111, 17, 194) 0%, rgb(14, 210, 236) 50%);
+    height: 100%;
+}
+
+.navbar {
+    content: '';
+    background: linear-gradient(100deg, rgb(14, 210, 236) 50%, rgb(111, 17, 194) 50%);
+}
+
+.img-fluid {
+    width: 80px;
+    height: 60px;
+}
+
+.input {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.input input[type="text"] {
+    width: 300px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e7;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card {
+    width: 50%;
+    background: red;
+    height: 30vh;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+}
+
+
+/*-----
+.close {
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    background: #e7e7e7;
+}
+*/
+
+.card h1 {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 18px;
+}
