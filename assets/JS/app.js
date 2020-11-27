@@ -16,13 +16,25 @@ button.addEventListener('click', function(name) {
 
             main.innerHTML = nameValue;
             desc.innerHTML = "Desc - " + descValue;
-            temp.innerHTML = "Your Temp is - " + tempValue;
+            temp.innerHTML = "Current Temp is - " + tempValue;
             input.value = "";
 
         })
 
-    .catch(err => alert("Wrong city name!"));
+    .catch(err => alert("You Have to Enter a City Name!"));
 })
+
+//for cards
+
+// var button = document.querySelector('.submit');
+
+// if (button) {
+//     document.getElementsByClassName('cards').style.background = 'red';
+// } else {
+//     document.getElementsByClassName('cards').style.background = '#1f567c';
+// }
+
+// codes for the web weidgets
 
 ! function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];

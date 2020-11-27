@@ -2,16 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-
+    <title>Weather-WebApp</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon-->
-    <link rel="shortcut icon" href=".png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Material Design Bootstrap -->
@@ -21,74 +15,63 @@
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <!----main CSS-->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- animate.css-->
-
-    <title>OpenWeatherMap Api</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
 
-    <body class="container-fluid">
-        <!-------------------------navbar section------------------------>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<body>
+    <!-------------------------navbar section------------------------>
+    <!-- 
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" class="img-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+        <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> -->
+    <!-- <span class="navbar-toggler-icon"></span> -->
+    <!-- <i class="fas fa-bars text-white"></i>
+    </button>
+    <a class="navbar-brand" href="#"><span class="text-danger font-weight-bold logo">Weatherish</span></a>
+
+    <ul class="navbar-nav mt-2 mt-lg-0">
+        <li class="nav-item dropdown">
+            <a class="nav-link " id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-user fa-1x" style="color: red; "></i>
             </a>
-            <ul class="navbar-nav mt-2 mt-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-user fa-1x" style="color: red; "></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
-                        <a class="dropdown-item" href="login.html">
-                            <h5 class="text-center"> Login</h5>
-                        </a>
-                        <a class="dropdown-item" href="signup.html">
-                            <h5 class="text-center"> Sign Up</h5>
-                        </a>
-                    </div>
-                </li>
-            </ul>
-            <div class="collapse navbar-collapse" id="nav">
-                <ul class="navbar-nav bg-light m-0 ml-lg-auto p-3 p-lg-0">
-                    <li class="d-inline d-lg-none">
-                        <button data-toggle="collapse" data-target="#nav" class="close float-right">&times;</button>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-truncate" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-truncate" href="weather.html">Check Weather</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-truncate" href="contact.html">Contact Us</a>
-                    </li>
-
-                </ul>
+            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                <a class="dropdown-item" href="login.html">
+                    <h5 class="text-center text-danger font-weight-bold"> Login</h5>
+                </a>
+                <a class="dropdown-item" href="signup.html">
+                    <h5 class="text-center text-danger font-weight-bold"> Sign Up</h5>
+                </a>
             </div>
-        </nav>
-        <!-------------------------home section------------------------>
+        </li>
+    </ul>
 
-        <div class="container-fluid mt-4">
-            <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="NEW YORK" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original">NEW YORK WEATHER</a>
-            <script>
-                ! function(d, s, id) {
-                    var js, fjs = d.getElementsByTagName(s)[0];
-                    if (!d.getElementById(id)) {
-                        js = d.createElement(s);
-                        js.id = id;
-                        js.src = 'https://weatherwidget.io/js/widget.min.js';
-                        fjs.parentNode.insertBefore(js, fjs);
-                    }
-                }(document, 'script', 'weatherwidget-io-js');
-            </script>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav bark m-0 ml-lg-auto p-3 p-lg-0">
 
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-danger" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-danger" href="weather.html">Check Weather</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-truncate text-danger" href="contact.html">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    </nav> -->
+    <!-------------------------home section------------------------>
+
+    <div class="container-fluid ">
+
+        <a class="weatherwidget-io" href="https://forecast7.com/en/9d087d40/abuja/" data-label_1="ABUJA" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-highcolor="#ed1818" data-suncolor="#f2a808">ABUJA WEATHER</a>
+
+
+        <div class="mt-2">
             <div class="input">
-                <input type="text" placeholder="Enter the City Name" class="input_text">
+                <input type="text" placeholder="Enter a City Name" class="input_text">
                 <input type="submit" value="Search" class="submit">
             </div>
             <div class="card">
@@ -98,21 +81,43 @@
                 <p class="desc"></p>
             </div>
         </div>
-        <!-------------------------footer section------------------------>
-        <div class="container-fluid">
-
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <a class="weatherwidget-io" href="https://forecast7.com/en/9d087d40/abuja/" data-label_1="ABUJA" data-label_2="WEATHER" data-font="Arial Black" data-icons="Climacons Animated" data-theme="original" data-highcolor="#ed1818" data-suncolor="#f2a808">ABUJA WEATHER</a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="mt-2">
+                        <div class="input">
+                            <input type="text" placeholder="Enter a City Name" class="input_text">
+                            <input type="submit" value="Search" class="submit">
+                        </div>
+                        <div class="card">
+                            <h1 class="name" id="name"></h1>
+                            <p class="temp"></p>
+                            <p class="clouds"></p>
+                            <p class="desc"></p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    </div>
+    <!-------------------------footer section------------------------>
+    <!-- <div class="container-fluid text-danger">
             <footer>
-                <h2 class="text-center">WEATHER-APP 2020 &COPY; MERCY-kALU</h2>
-                <div>Logo made by <a href="https://www.designevo.com/logo-maker/" title="Free Online Logo Maker">DesignEvo</a></div>
+                <p class="text-center font-weight-bold">WEATHER-APP 2020 &COPY; MERCY-kALU</p>
             </footer>
-        </div>
+        </div> -->
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="assets/JS/app.js"></script>
+    <script>
+    </script>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
-        <script src="JS/app.js"></script>
-    </body>
+</body>
 
 </html>
