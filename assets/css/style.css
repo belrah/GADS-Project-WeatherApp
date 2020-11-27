@@ -85,6 +85,10 @@ input[type="submit"] {
     font-weight: 900;
 }
 
+.social-a:hover {
+    color: red;
+}
+
 .btn-link:hover {
     background-color: red;
     color: white;
